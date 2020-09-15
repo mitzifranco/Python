@@ -1,0 +1,37 @@
+To output words, it is a simple print "____". 
+To output a longer text you can do print """________""" with 3 quotation marks because this allows you to indent regardless of how long your text is. You can also assign this print to a variable simply by using variable = """____"""
+
+The different types of variables
+
+String: can contain letters, numbers, and symbols. To assign string all you have to do is variable_name = "____" or '______' ex. Brian = "Hello life!"
+Keep in mind that if you are going to type string with '____' and you use a word such as, That's you would have to code it like 'That\'s not a problem' in order for the code not to break and think that the code ended with the apostrophe in That's.
+When you print string you can also capitalize all the letters or lowercase all the letters by doing ex. print variable_name.lower() or print variable_name.upper()
+In order to add strings with the + operator all you would do is "______" + "_______". If you want to print string with an integer all you have to do is "____" + str(variable_name) + "______"
+
+EXAMPLES
+String: 3 ways to create:
+'Alpha'
+"Brian"
+str(3)    #This converts 3 from an integer into a string
+String: Methods:
+len("Charlie")    #This gives you the length of the string 
+"Delta".upper()   #This capitalizes all string
+"Delta".lower()   #This lowercases all string
+Printing String: print "Foxtrot"    #This prints the string
+String: Advance Printing Techniques:
+g = "gold"
+h = "hotel" 
+print "%s %s" % (g, h)  #This allows you to use the variables without typing the whole strign again. 
+
+Booleans: This allows you to set a variable = true or false based on what you want to have. In order to set a boolean, all you have to do is variable_name = true or variable_name = false.
+
+Integer: In order to have an integer (which will have no decimals) you just need to assign variable_name = number
+
+Float: In order to have a float (which will include decimals when you do any type of operation, such as division, etc.) you jus need to assign variable_name = number
+The difference between float and integer comes a long way once you start doing operations on the numbers because one allows you to have decimals (float) while the other doesn't and rounds up to the next number (integer)
+
+Comments: in order to further explain your code to others or just for organization purposed you can add comments to your code which do not affect the way your code runs. In order to do this you input #______ and then write what you want to be a comment.
+
+Integer to String: in order to convert an integer to string all we do is first assign the variable_name = number then print str(variable_name) which would make the code ex. 5 into "5"
+
+\ = a continuation marker with string. All it does is tell the python that the line 1 continues on to the next line 2
